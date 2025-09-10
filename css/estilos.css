@@ -9,14 +9,14 @@ body {
 header {
     background: #0071ba;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header input {
     padding: 5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .menu-top {
     background: #0a4e87;
@@ -64,18 +64,41 @@ main {
     padding: 20px;
     max-width: 850px;
 }
+
+
+main h1 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #0a4e87;
+}
+
+main p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    color: #444;
+}
+
+main p strong {
+    color: #0071ba;
+}
+
 .img-container {
     text-align: center;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 .img-container img {
-    max-width: 100%;
+     max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
+    
 }
 .caption {
-    font-size: 12px;
+    font-size: 13px;
     color: #666;
-    margin-top: 5px;
+    margin-top: 6px;
 }
 .note {
     background: #e7f3ff;
@@ -116,4 +139,60 @@ aside ul li a {
 aside ul li.active a {
     font-weight: bold;
     color: #d9534f;
+}
+.manual-section {
+    margin-bottom: 40px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.manual-section h2 {
+    font-size: 20px;
+    color: #0a4e87;
+    margin-bottom: 10px;
+}
+
+.manual-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.manual-steps {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.manual-steps li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.img-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.img-container img {
+    max-width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.caption {
+    font-size: 13px;
+    color: #666;
+    margin-top: 6px;
+}
+
+.tip {
+    background: #e8f5e9;
+    border-left: 4px solid #4CAF50;
+    padding: 10px;
+    font-size: 13px;
+    color: #333;
+    margin-top: 20px;
+    border-radius: 4px;
 }
